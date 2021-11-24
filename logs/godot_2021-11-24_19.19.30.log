@@ -1,0 +1,11 @@
+Godot Engine v3.2.3.stable.official - https://godotengine.org
+OpenGL ES 3.0 Renderer: GeForce GT 630M/PCIe/SSE2
+ 
+**ERROR**: Condition "_first != __null" is true.
+   At: ./core/self_list.h:112:~List() - Condition "_first != __null" is true.
+**WARNING**: ObjectDB instances leaked at exit (run with --verbose for details).
+   At: core/object.cpp:2135:cleanup() - ObjectDB instances leaked at exit (run with --verbose for details).
+**ERROR**: Resources still in use at exit (run with --verbose for details).
+   At: core/resource.cpp:477:clear() - Resources still in use at exit (run with --verbose for details).
+**ERROR**: There are still MemoryPool allocs in use at exit!
+   At: core/pool_vector.cpp:69:cleanup() - Condition "allocs_used > 0" is true.

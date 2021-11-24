@@ -1,0 +1,5 @@
+Godot Engine v3.2.3.stable.official - https://godotengine.org
+OpenGL ES 3.0 Renderer: GeForce GT 630M/PCIe/SSE2
+ 
+**ERROR**: Nonexistent signal 'item_rect_changed' in [GraphNode:8464].
+   At: core/object.cpp:1569:_disconnect() - Condition "!s" is true.
