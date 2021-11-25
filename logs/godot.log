@@ -2,3 +2,11 @@ Godot Engine v3.4.stable.official.206ba70f4 - https://godotengine.org
 OpenGL ES 3.0 Renderer: AMD RENOIR (DRM 3.40.0, 5.10.79-1-MANJARO, LLVM 13.0.0)
 OpenGL ES Batching: ON
  
+ERROR: Condition "_first != nullptr" is true.
+   at: ~List (./core/self_list.h:108) - Condition "_first != nullptr" is true.
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object.cpp:2064) - ObjectDB instances leaked at exit (run with --verbose for details).
+ERROR: Resources still in use at exit (run with --verbose for details).
+   at: clear (core/resource.cpp:417) - Resources still in use at exit (run with --verbose for details).
+ERROR: There are still MemoryPool allocs in use at exit!
+   at: cleanup (core/pool_vector.cpp:63) - Condition "allocs_used > 0" is true.
